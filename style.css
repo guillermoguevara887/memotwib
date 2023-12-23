@@ -56,3 +56,50 @@ textarea {
     cursor: pointer;
     font-weight: 700;
 }
+
+.tweet {
+    border-top: 1px solid lightgray;
+    width: 100%;
+    padding: 15px 0 0 0;
+    margin: 20px 0;
+
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+}
+
+.handle {
+    color: gray;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.tweet-text {
+    line-height: 20px;
+    width: 207px;
+    font-size: 14px;
+}
+
+.tweet-details {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    font-size: 15px;
+
+}
+
+.tweet-detail {
+    display: flex;
+    gap: 4px;
+}
