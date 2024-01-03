@@ -103,3 +103,28 @@ textarea {
     display: flex;
     gap: 4px;
 }
+
+.fa-solid {
+    color: #999;
+
+}
+
+.liked {
+    color: #f80000;
+}
+
+.retweeted {
+    color: limegreen;
+
+}
+
+.tweet-reply {
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
